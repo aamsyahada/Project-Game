@@ -374,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  sesuatu: {fileID: 467997751}
 --- !u!114 &467997755
 MonoBehaviour:
   m_ObjectHideFlags: 0
