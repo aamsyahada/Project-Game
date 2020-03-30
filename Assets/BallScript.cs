@@ -23,7 +23,15 @@ public class BallScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other) {
     	if(other.collider.name=="TembokKanan" || other.collider.name=="TembokKiri"){
-    		GetComponent<Transform>().position = new Vector2(0,0);
+    		StartCoroutine(jeda());
     	}
     }
+
+    IEnumerator jeda(){
+    	sesuatu.velocity = Vector2.zero;
+    	sesuatu.GetComponent<Transform>().position = new Vector2(0,0);
+    	yield return new WaitForSeconds(1);
+    	sesuatu.velocity = new Vector2(1,1) * speed;
+    }
+
 }
