@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 71e67a8f846fed048977b2fb550481bf
+guid: 54e437eedae695d469b43236c286ce6c
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Press Start K
+  fontName: Press Start
   fontNames:
-  - Press Start K
+  - Press Start
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
