@@ -15,6 +15,8 @@ public class BallScript : MonoBehaviour
 
 	public Animator animtr;
 
+    public AudioSource hitEffect;
+
     void Start()
     {
         int x = Random.Range(0,2) * 2 - 1; //nilai x -1/1
@@ -40,6 +42,9 @@ public class BallScript : MonoBehaviour
             MasterScript.GetComponent<ScoringScript>().UpdateScore(other.collider.name);
     		StartCoroutine(jeda());
     	}
+        if(other.collider.tag=="Player"){
+            hitEffect.Play();
+        }
     }
 
     IEnumerator jeda(){

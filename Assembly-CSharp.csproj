@@ -45,6 +45,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\BGMScript.cs" />
      <Compile Include="Assets\BallCollision.cs" />
      <Compile Include="Assets\BallScript.cs" />
      <Compile Include="Assets\EndingScript.cs" />
